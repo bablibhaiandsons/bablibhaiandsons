@@ -94,7 +94,7 @@ jQuery( document ).ready(function( $ ) {
         }
         if ($('.owl-banner').length) {
             $('.owl-banner').owlCarousel({
-                loop: true,
+                loop: false,
                 nav: false,
                 dots: true,
                 items: 1,
@@ -122,7 +122,6 @@ jQuery( document ).ready(function( $ ) {
                 }
             });
         }
-
         $(".Modern-Slider").slick({
             autoplay:true,
             autoplaySpeed:10000,
